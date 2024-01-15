@@ -1,0 +1,6 @@
+~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+SkyNews |  |  |  |
+https://www.youtube.com/watch?v=w9uJg68CV4g
+
