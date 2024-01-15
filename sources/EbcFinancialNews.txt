@@ -1,0 +1,6 @@
+~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+EbcFinancialNews |  |  |  |
+https://www.youtube.com/@57ETFN/live
+
