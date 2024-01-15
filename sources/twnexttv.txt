@@ -1,0 +1,6 @@
+~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+壹电视新闻台 |  |  |  |
+https://www.youtube.com/@NEXTTV_TW/live
+
