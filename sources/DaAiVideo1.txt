@@ -1,0 +1,6 @@
+~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+DaAiVideo1 |  |  |  |
+https://www.youtube.com/@DaAiVideo/live
+
