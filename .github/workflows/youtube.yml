@@ -1,0 +1,39 @@
+name: GetYouTuBeLive 
+
+on:
+  schedule:
+    - cron: '0 0/3 * * *'
+
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: config
+        run: |
+          git config --global user.email "hearofnight0@gmail.com"
+          git config --global user.name "hearofnight"
+
+      - name: Main
+        run: |
+          pwd
+          chmod +x y2blive.sh
+          ./y2blive.sh
+
+      - name: git add
+        run: |
+          git add -A
+          ls -la
+
+      - name: commit & push
+        run: |
+          git commit -m "hearofnight!"
+          git push
