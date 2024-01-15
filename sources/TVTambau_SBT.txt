@@ -1,0 +1,5 @@
+~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+TV Tambaú - SBT |  |  |  |
+https://www.youtube.com/@tvtambauoficial/live

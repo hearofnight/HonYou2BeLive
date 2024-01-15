@@ -1,0 +1,5 @@
+~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+GOAT TV |  |  |  |
+https://www.youtube.com/@canalgoatbr/live

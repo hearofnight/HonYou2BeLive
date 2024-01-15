@@ -1,0 +1,5 @@
+~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+EuroNews Portugal |  |  |  |
+https://www.youtube.com/@euronewspt/live

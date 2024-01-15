@@ -1,0 +1,5 @@
+~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+TV Câmara |  |  |  |
+https://www.youtube.com/@CamaradosDeputadosoficial/live

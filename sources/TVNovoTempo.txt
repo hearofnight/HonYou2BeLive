@@ -1,0 +1,5 @@
+~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+TV Novo Tempo |  |  |  |
+https://www.youtube.com/@novotempo/live

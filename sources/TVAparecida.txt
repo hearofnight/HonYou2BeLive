@@ -1,0 +1,5 @@
+~~ FORMAT: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+TV Aparecida |  |  |  |
+https://www.youtube.com/tvaparecidaoficial/live

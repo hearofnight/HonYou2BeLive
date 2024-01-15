@@ -1,0 +1,5 @@
+~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+TNT Sports Brasil |  |  |  |
+https://www.youtube.com/@TNTSportsBR/live

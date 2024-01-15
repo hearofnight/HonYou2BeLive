@@ -1,0 +1,5 @@
+~~ FORMAT: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+SBT |  |  |  |
+https://www.youtube.com/@sbtcentral/live

@@ -1,0 +1,5 @@
+~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+CitNews |  |  |  |
+https://www.youtube.com/watch?v=oIgbl7t0S_w
