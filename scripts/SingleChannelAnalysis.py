@@ -10,12 +10,12 @@ def grab(url):
         response = requests.get(url).text
         if '.m3u8' not in response:
             if windows:
-                print('https://raw.githubusercontent.com/Devilarte/Channel-Offline/main/offline.ts')
+                print('https://raw.githubusercontent.com/HonYou2BeLive/Channel-Offline/main/offline.ts')
                 return
             os.system(f'curl "{url}" > temp.txt')
             response = ''.join(open('temp.txt').readlines())
             if '.m3u8' not in response:
-                print('https://raw.githubusercontent.com/Devilarte/Channel-Offline/main/offline.ts')
+                print('https://raw.githubusercontent.com/HonYou2BeLive/Channel-Offline/main/offline.ts')
                 return
     end = response.find('.m3u8') + 5
     tuner = 100
@@ -42,7 +42,7 @@ print('#EXTM3U')
 print('#EXT-X-VERSION:3')
 print('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000')
 s = requests.Session()
-with open(f'/home/runner/work/YTBLive_Catcher/YTBLive_Catcher/sources/{channel_name}.txt') as f:
+with open(f'/home/runner/work/HonYou2BeLive/HonYou2BeLive/sources/{channel_name}.txt') as f:
     for line in f:
         line = line.strip()
         if not line or line.startswith('~~'):
