@@ -2,7 +2,7 @@
 # 设置时区为中国香港
 export TZ=Asia/Hong_Kong
 # 从URL读取频道列表
-CHANNEL_URL="https://raw.githubusercontent.com/hearofnight/YTBLive_Catcher/main/sources/ChannelNeed.txt"
+CHANNEL_URL="https://raw.githubusercontent.com/hearofnight/HonYou2BeLive/main/sources/ChannelNeed.txt"
 CHANNELS=($(curl -s "$CHANNEL_URL"))
 #初始化频道信息文件夹和日志文件
 mkdir -p {newchannels,logs}
