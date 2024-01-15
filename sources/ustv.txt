@@ -1,0 +1,6 @@
+~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+ustv |  |  |  |
+https://www.youtube.com/@ustv/live
+
