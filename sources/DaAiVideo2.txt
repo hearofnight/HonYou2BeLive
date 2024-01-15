@@ -1,6 +1,6 @@
 ~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
 ~~         <URL YOUTUBE LIVE>
 
-DaAiVideo2 |  |  |  |
+大爱二台 |  |  |  |
 https://www.youtube.com/watch?v=DTNkEm6jaqQ
 
