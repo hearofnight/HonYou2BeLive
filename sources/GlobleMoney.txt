@@ -1,6 +1,7 @@
 ~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
 ~~         <URL YOUTUBE LIVE>
 
-寰宇新闻台 |  |  |  |
-https://www.youtube.com/@globalnewstw/live
+寰宇财经台 |  |  |  |
+https://www.youtube.com/@globlemoney/live
+
 
