@@ -1,5 +1,5 @@
 ~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
 ~~         <URL YOUTUBE LIVE>
 
-momoch48 |  |  |  |
+MOMO1台 |  |  |  |
 https://www.youtube.com/@momoch4812/live
