@@ -1,0 +1,6 @@
+~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+India today |  |  |  |
+https://www.youtube.com/@indiatoday/live
+
