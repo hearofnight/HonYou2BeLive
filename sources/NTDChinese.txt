@@ -1,0 +1,6 @@
+~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+新唐人电视台 |  |  |  |
+https://www.youtube.com/@NTDCHINESE/live
+
