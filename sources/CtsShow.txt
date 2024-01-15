@@ -1,6 +1,6 @@
 ~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
 ~~         <URL YOUTUBE LIVE>
 
-CtsShow |  |  |  |
+华视CTS |  |  |  |
 https://www.youtube.com/@CTSSHOW/live
 
