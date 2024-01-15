@@ -11,7 +11,7 @@ touch logs/youtube_live_`date +%Y%m%d`.log
 for channel in "${CHANNELS[@]}"; do
     # 调用 xxx.py 脚本并传递频道参数
     python3 scripts/SingleChannelAnalysis.py "$channel" > "newchannels/$channel.m3u8"
-    sleep 5
+    sleep 10
 done
 #保存执行日志到logs/youtube_live_`date +%Y%m%d`.log
 date +'最后一次链接捕获时间为 %Y 年 %m 月 %d 日 %H:%M:%S, %A' >> logs/youtube_live_`date +%Y%m%d`.log
