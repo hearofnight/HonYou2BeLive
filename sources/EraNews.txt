@@ -1,6 +1,6 @@
 ~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
 ~~         <URL YOUTUBE LIVE>
 
-EraNews |  |  |  |
+年代新闻 |  |  |  |
 https://www.youtube.com/@ERA_NEWS/live
 
