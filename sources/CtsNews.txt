@@ -1,6 +1,5 @@
 ~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
 ~~         <URL YOUTUBE LIVE>
 
-华视新闻 |  |  |  |
+CtsNews |  |  |  |
 https://www.youtube.com/@CtsTw/live
-
