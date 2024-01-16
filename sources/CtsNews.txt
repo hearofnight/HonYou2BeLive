@@ -1,5 +1,5 @@
 ~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
 ~~         <URL YOUTUBE LIVE>
 
-CtsNews |  |  |  |
+CtsNews  |  |  |  |
 https://www.youtube.com/watch?v=wM0g8EoUZ_E
