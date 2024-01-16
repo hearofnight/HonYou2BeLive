@@ -15,6 +15,6 @@ for channel in "${CHANNELS[@]}"; do
     sleep 10
 done
 #保存执行日志到logs/youtube_live_`date +%Y%m%d`.log
-date +'最后一次链接捕获时间为 %Y 年 %m 月 %d 日 %H:%M:%S, %A' >> logs/youtube_live_`date +%Y%m%d`.log
+date +'最后一次链接捕获时间为 %Y 年 %m 月 %d 日 %H:%M:%S, %A' >> logs/youtube_live_singledell_`date +%Y%m%d`.log
 #Log de Capturas
 #date +'Última captura de links foi %A, %d de %B de %Y às %H:%M' >> captures.log
