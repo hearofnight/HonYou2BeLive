@@ -4,7 +4,7 @@ export TZ=Asia/Hong_Kong
 # 从URL读取频道列表
 #CHANNEL_URL="https://raw.githubusercontent.com/hearofnight/HonYou2BeLive/main/sources/ChannelNeed.txt"
 #CHANNELS=($(curl -s "$CHANNEL_URL"))
-CHANNELS=("TvbsNews" "CtsNews")
+CHANNELS=("TvbsNews" "SetNews" "CtsNews")
 #CHANNELS=("CtsNews" "test" "TvbsNews")
 #初始化频道信息文件夹和日志文件
 mkdir -p {newchannels,logs}
