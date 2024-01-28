@@ -1,0 +1,5 @@
+~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+翡翠台 |  |  |  |
+https://www.xhzb.tw/tv-show-20052-3.html
