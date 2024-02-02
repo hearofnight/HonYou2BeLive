@@ -4,7 +4,7 @@ export TZ=Asia/Hong_Kong
 # 从URL读取频道列表
 #CHANNEL_URL="https://raw.githubusercontent.com/hearofnight/HonYou2BeLive/main/sources/ChannelNeed.txt"
 #CHANNELS=($(curl -s "$CHANNEL_URL"))
-CHANNELS=("造型手册-比基尼" "tvb1" "TvbsNews" "SetNews" "CtsNews")
+CHANNELS=("造型手册-透视丝袜" "造型手册-比基尼" "tvb1" "TvbsNews" "SetNews" "CtsNews")
 #初始化频道信息文件夹和日志文件
 mkdir -p {newchannels,logs}
 touch logs/youtube_live_`date +%Y%m%d`.log
