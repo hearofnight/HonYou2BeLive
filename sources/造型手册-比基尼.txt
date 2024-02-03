@@ -1,5 +1,5 @@
 ~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
 ~~         <URL YOUTUBE LIVE>
 
-ABC News |  |  |  |
-https://www.youtube.com/@ABCNews/live
+dsad |  |  |  |
+https://www.youtube.com/watch?v=OVFr1PN6Wik
