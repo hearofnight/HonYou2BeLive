@@ -37,3 +37,4 @@ AstroAwani
 Indiatoday
 MediaOne
 TheKPop
+TBSNews_Japan
