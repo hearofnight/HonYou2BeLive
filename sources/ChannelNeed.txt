@@ -38,3 +38,4 @@ Indiatoday
 MediaOne
 TheKPop
 TBSNews_Japan
+CNA_Singapore
