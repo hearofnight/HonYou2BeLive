@@ -1,1 +1,5 @@
+~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+tbsnewsdig |  |  |  |
 https://www.youtube.com/@tbsnewsdig/live
