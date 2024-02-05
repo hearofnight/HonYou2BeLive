@@ -1,5 +1,0 @@
-~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
-~~         <URL YOUTUBE LIVE>
-
-dsad |  |  |  |
-https://www.youtube.com/watch?v=OVFr1PN6Wik
