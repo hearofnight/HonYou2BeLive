@@ -7,7 +7,7 @@ SetiNews
 SetNews
 EbcFinancialNews
 TvbsNews
-TVBS
+TvbsHD
 phoenixtvhk
 PhoenixTVNews
 PhoenixHongKong
