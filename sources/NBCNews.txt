@@ -1,1 +1,5 @@
+~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
+~~         <URL YOUTUBE LIVE>
+
+NBC News |  |  |  |
 https://www.youtube.com/@NBCNews/live
