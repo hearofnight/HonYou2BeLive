@@ -1,5 +1,6 @@
 CitNews
 EbcNews
+NBCNews
 GlobalNews
 TaiwanNews
 GlobleMoney
