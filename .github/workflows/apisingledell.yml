@@ -39,7 +39,7 @@ jobs:
           chmod +x apisingledell.sh
           ./apisingledell.sh
         env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}  # 设置您的 YouTube API 密钥
+          YOUTUBE_API_KEY: ${{secrets.YOUTUBE_API_KEY}}  # 设置您的 YouTube API 密钥
 
       - name: git add
         run: |
