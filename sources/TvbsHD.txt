@@ -1,5 +1,5 @@
 ~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
 ~~         <URL YOUTUBE LIVE>
 
-TvbsHD|  |  |  |
+TvbsHD |  |  |  |
 https://www.youtube.com/watch?v=YvdcZ_jpLXE
