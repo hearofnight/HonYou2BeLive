@@ -11,8 +11,7 @@ touch logs/youtube_live_`date +%Y%m%d`.log
 # 遍历每个频道
 for channel in "${CHANNELS[@]}"; do
     # 调用 xxx.py 脚本并传递频道参数
-    #python3 scripts/SingleChannelAnalysis.py "$channel" > "newchannels/$channel.m3u8"
-    python3 scripts/ApiSingleChannelAnalysis.py "$channel" > "newchannels/$channel.m3u8"
+    python3 scripts/SingleChannelAnalysis.py "$channel" > "newchannels/$channel.m3u8"
     sleep 5
 done
 #保存执行日志到logs/youtube_live_`date +%Y%m%d`.log
