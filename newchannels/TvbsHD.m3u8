@@ -1,2 +1,4 @@
-Invalid URL format: TvbsHD |  |  |  |
-Failed to get live stream URL for video ID: YvdcZ_jpLXE
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1711726028/ei/bIkGZpOOGeOM2_gP4de0qAc/ip/172.183.107.211/id/YvdcZ_jpLXE.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr2---sn-vgqsrn6z.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/us/spc/UWF9f14UeKNNlYADjwvpubl1OJxnfiRRs1gsHGDeX58RSjE/vprv/1/playlist_type/DVR/mh/6C/mm/44/mn/sn-vgqsrn6z/ms/lva/mv/u/mvi/2/pl/15/dover/11/pacing/0/keepalive/yes/fexp/51141542/mt/1711703976/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,gcr,spc,vprv,playlist_type/sig/AJfQdSswRQIgdK7Yq1SpulDHCwVFcKNMarI5deDw3V-Gn0qJY_x4_M8CIQCcMoha6AEloKEziCBIqRr4325NkPrz4mNkW99hbWMmIw%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/ALClDIEwRQIgTydgdsNKEhMMaql-trbBLUHZpbGYjiySoJnQA9c7djICIQCGgfVHewCUV9lFm-SdH8xGLb5Q617Tz-bZiDcwPbh4OA%3D%3D/playlist/index.m3u8
