@@ -43,6 +43,8 @@ if __name__ == "__main__":
     with open(f'/home/runner/work/HonYou2BeLive/HonYou2BeLive/sources/{channel_name}.txt', 'r') as file:
         for line in file:
             line = line.strip()
+              if not line or line.startswith('~~'):
+            continue
             if line.startswith('https://www.youtube.com/watch?v='):
                 video_id = line.split("=")[-1]
                 live_stream_url = get_live_stream_url(video_id)
