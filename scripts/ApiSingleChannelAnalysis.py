@@ -4,7 +4,7 @@ import googleapiclient.discovery
 import requests
 
 # 设置API密钥
-API_KEY = os.environ.get('')
+API_KEY = os.environ.get('YOUTUBE_API_KEY')
 #API_KEY = "YOUR_YOUTUBE_API_KEY"
 
 def get_live_stream_url(video_id):
