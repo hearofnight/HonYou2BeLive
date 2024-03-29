@@ -1,4 +1,2 @@
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1711703590/ei/xjEGZof_N9vVir4PtNmxyAY/ip/172.183.74.3/id/6IquAgfvYmc.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr2---sn-vgqsknzd.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f74ZJee9tO7_hZMEm-OWxDer3wRqdTDehl5KDPNqt8c/vprv/1/playlist_type/DVR/mh/M0/mm/44/mn/sn-vgqsknzd/ms/lva/mv/u/mvi/2/pl/15/dover/11/pacing/0/keepalive/yes/fexp/51141542/mt/1711681262/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRQIgLgxLIxWS6jdEpuZN2W6zl9hFCeyXhtv7kT875UZ03n8CIQDgMy4Sl8m1iA6PMt0ey3wE5_aO1ATawAeEro-UUI0rWA%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/ALClDIEwRQIhAN69wM8ilKdEtPsNsHw0FKzJGw5vHabYSCKacH9lskmBAiBZAbIKOao2Y1cZlA4pAaGYELcoH8JEBqgIGsqpvqE-og%3D%3D/playlist/index.m3u8
+Invalid URL format: 寰宇新闻台 |  |  |  |
+Failed to get live stream URL for video ID: 6IquAgfvYmc
