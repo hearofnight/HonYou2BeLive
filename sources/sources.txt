@@ -5,7 +5,6 @@ BoaVontadeTV.txt
 CazeTV.txt
 CJCTV.txt
 EuroNewsPT1.txt
-EuroNewsPT2.txt
 GOATTV.txt
 IMPDTV.txt
 JovemPanNews.txt
@@ -13,6 +12,7 @@ RBCTV.txt
 RecordNews.txt
 RITTV.txt
 SBT.txt
+STF_oficial.txt
 sources.txt
 TNTSportsBR.txt
 TVAparecida.txt
