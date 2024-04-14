@@ -1,6 +1,8 @@
 # HonYou2BeLive
 ## 测试 stream-link
+```
  wget --user-agent "(Windows NT 10.0; Win64; x64) PotPlayer/23.11.02"  https://www.stream-link.org/stream-link.m3u
+```
 ## 测试 HONTV官方
 ```
 curl --user-agent "(Windows NT 10.0; Win64; x64) PotPlayer/23.11.02" https://hoytv-live-stream.hoy.tv/ch78/index-fhd-3-v-fhd.m3u8
