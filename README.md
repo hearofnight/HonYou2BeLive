@@ -54,3 +54,8 @@ if (isset($_GET['url'])) {
 }
 ?>
 ```
+# hls常用命令
+## 获取用户ip去重
+```
+netstat -anlp|grep "192.168.8.202:8881"|awk '{ print $5 }'|grep -Ev '192.168'|cut -d: -f1|sort -u
+```
