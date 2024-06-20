@@ -73,3 +73,23 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 sudo yum install -y jq
 ```
+## 查看容器镜像版本
+```
+docker image inspect pixman/pixman|grep version
+```
+## 查看远端镜像版本
+```
+curl -sS "https://registry.hub.docker.com/v2/repositories/pixman/pixman/tags/latest" | jq -r '.name'
+```
+## 获取远程仓库latest标签的digest
+```
+curl -sS "https://registry.hub.docker.com/v2/repositories/pixman/pixman/tags/latest" | jq -r '.digest'
+```
+## 获取本地镜像latest标签的digest
+```
+docker inspect --format='{{index .RepoDigests 0}}' pixman/pixman:latest
+```
+## 手动触发 Watchtower：使用以下命令手动触发 Watchtower 进行一次更新检查，以测试配置是否生效
+```
+docker exec watchtower /watchtower --run-once
+```
