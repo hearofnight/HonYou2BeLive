@@ -59,3 +59,17 @@ if (isset($_GET['url'])) {
 ```
 netstat -anlp|grep "192.168.8.202:8881"|awk '{ print $5 }'|grep -Ev '192.168'|cut -d: -f1|sort -u
 ```
+# docker
+## 检查 docker-compose 是否安装
+```
+docker-compose --version
+```
+## 安装 docker-compose
+```
+sudo curl -L "https://github.com/docker/compose/releases/download/v2.19.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+```
+## 缺少 jq
+```
+sudo yum install -y jq
+```
