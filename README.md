@@ -18,7 +18,8 @@ sudo yum install -y epel-release
 sudo yum install -y python3 python3-pip
 sudo pip3 install --upgrade pip
 ```
-## python3 更新脚本
+# python3 更新脚本
+## vim update_python.sh
 ```
 #!/bin/bash
 
