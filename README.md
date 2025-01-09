@@ -18,6 +18,69 @@ sudo yum install -y epel-release
 sudo yum install -y python3 python3-pip
 sudo pip3 install --upgrade pip
 ```
+## python3 更新脚本
+```
+#!/bin/bash
+
+# 如果没有传入版本号，则提示用户输入
+if [ -z "$1" ]; then
+  echo "请输入要升级的 Python 版本，例如 3.9.2"
+  read -p "Python 版本: " PYTHON_VERSION
+  # 如果用户没有输入版本号，脚本退出
+  if [ -z "$PYTHON_VERSION" ]; then
+    echo "没有输入 Python 版本，退出脚本。"
+    exit 1
+  fi
+else
+  PYTHON_VERSION=$1
+fi
+
+# 提取 Python 的主版本号（如 3.9）
+MAJOR_VERSION=$(echo $PYTHON_VERSION | cut -d'.' -f1-2)
+
+# 更新系统并安装必要的依赖
+sudo yum -y update
+sudo yum groupinstall "Development Tools" -y
+sudo yum install gcc openssl-devel bzip2-devel libffi-devel zlib-devel -y
+
+# 下载 Python 源码包
+cd /usr/src
+sudo wget --no-check-certificate https://www.python.org/ftp/python/$PYTHON_VERSION/Python-$PYTHON_VERSION.tgz
+
+# 解压并进入 Python 目录
+sudo tar xvf Python-$PYTHON_VERSION.tgz
+cd Python-$PYTHON_VERSION
+
+# 创建安装目录
+sudo mkdir -p /usr/local/python3
+
+# 配置 Python 安装路径
+sudo ./configure --prefix=/usr/local/python3
+
+# 编译并安装 Python
+sudo make && sudo make install
+
+# 备份现有的 Python3 和 pip3
+sudo \cp -rf /usr/local/python3/bin/python3 /usr/local/python3/bin/python3_bak$(date +%Y%m%d%H%M%S)
+sudo \cp -rf /usr/local/python3/bin/pip3 /usr/local/python3/bin/pip3_bak$(date +%Y%m%d%H%M%S)
+
+# 如果 /usr/bin/python3 和 /usr/bin/pip3 存在，先删除它们
+if [ -e /usr/bin/python3 ]; then
+  sudo rm -rf /usr/bin/python3
+fi
+
+if [ -e /usr/bin/pip3 ]; then
+  sudo rm -rf /usr/bin/pip3
+fi
+
+# 创建新的符号链接
+sudo ln -sf /usr/local/python3/bin/python$MAJOR_VERSION /usr/bin/python3
+sudo ln -sf /usr/local/python3/bin/pip$MAJOR_VERSION /usr/bin/pip3
+
+# 验证 python 和 pip 安装
+python3 --version
+pip3 --version
+```
 ## 下载 yt-dlp：
 ```
 sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
